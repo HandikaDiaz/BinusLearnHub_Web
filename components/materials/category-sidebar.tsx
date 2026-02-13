@@ -79,7 +79,6 @@ export default function CategorySidebar({
                         </div>
                     </CardHeader>
                     <CardContent className="p-4 lg:p-6 pt-0 space-y-6">
-                        {/* Category Filter */}
                         <div>
                             <h3 className="font-medium text-sm lg:text-base mb-3">Kategori</h3>
                             <div className="space-y-2">

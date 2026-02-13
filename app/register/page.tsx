@@ -127,6 +127,7 @@ export default function RegisterPage() {
                                             required
                                         />
                                     </div>
+                                    {errors.name && (<div className="text-sm text-red-600">{errors.name.message}</div>)}
                                 </div>
 
                                 <div className="space-y-2">
@@ -145,6 +146,7 @@ export default function RegisterPage() {
                                             required
                                         />
                                     </div>
+                                    {errors.email && (<div className="text-sm text-red-600">{errors.email.message}</div>)}
                                 </div>
 
                                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -160,6 +162,7 @@ export default function RegisterPage() {
                                             onChange={handleInputChange}
                                             required
                                         />
+                                        {errors.school && (<div className="text-sm text-red-600">{errors.school.message}</div>)}
                                     </div>
 
                                     <div className="space-y-2">
@@ -178,6 +181,7 @@ export default function RegisterPage() {
                                             <option value="12 IPS">12 IPS</option>
                                             <option value="12 Bahasa">12 Bahasa</option>
                                         </select>
+                                        {errors.grade && (<div className="text-sm text-red-600">{errors.grade.message}</div>)}
                                     </div>
                                 </div>
 
@@ -210,6 +214,7 @@ export default function RegisterPage() {
                                             )}
                                         </Button>
                                     </div>
+                                    {errors.password && (<div className="text-sm text-red-600">{errors.password.message}</div>)}
                                 </div>
 
                                 <div className="space-y-2">

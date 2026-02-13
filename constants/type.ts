@@ -58,8 +58,8 @@ export type StudyStatistic = {
 
 export const mockUser: User = {
     id: 'user-123',
-    name: 'Andi Wijaya',
-    email: 'andi@example.com',
+    name: 'Handika',
+    email: 'handika@example.com',
     grade: '12 IPA',
     school: 'SMA Negeri 1 Jakarta',
     level: 7,
